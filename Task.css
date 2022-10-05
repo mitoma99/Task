@@ -20,6 +20,7 @@
   width: 960px;
   margin:50px auto;
   display: flex;
+  background-color: #ffffff;
 }
 
 .main-box{
@@ -65,4 +66,35 @@
   width:100%;
   height:50px;
   background-color:#AAAAAA;
+}
+
+@media screen and (max-width: 768px){
+  header{
+   width:100%;
+  } 
+  
+  .main-seet{
+    width: 100%;
+    margin:50% auto;
+    display: block;
+  }
+  
+  .main-box{
+    width: 90%;
+    margin-top: 20%;
+  }
+  .main-image1{
+    width: 90%;
+  }
+  
+  .main-image2{
+    width: 90%;
+  }
+  
+  .main-image3{
+    width: 90%;
+  }
+  .footer{
+    width: 100%;
+  }
 }
