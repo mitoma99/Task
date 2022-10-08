@@ -73,20 +73,22 @@
    width:100%;
   } 
   
-  .main{
-   margin:50px auto; 
-  }
-  
   .main-seet{
-    width: 100%;
+    width: 90%;
     margin:50px auto;
     display: block;
   }
   
   .main-box{
-    width: 90%;
-    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right:0px;
   }
+  
+  .main-box:last-child{
+    margin-bottom: 0px;
+  }
+  
   .main-image1{
     width: 90%;
   }
