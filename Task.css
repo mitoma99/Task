@@ -31,6 +31,10 @@
   position:relative;
 }
 
+.main-box:last-child {
+  margin-right: 0;
+}
+
 .main-image1{
   height:150px;
   background-image:url(img/flow01.png);
